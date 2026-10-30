@@ -1,0 +1,24 @@
+name: SimpleSpawn
+version: '1.0.0'
+main: com.exemplo.simplespawn.SimpleSpawn
+api-version: '1.21'
+description: Define e teleporta para o spawn do servidor.
+
+commands:
+  setspawn:
+    description: Define o spawn na sua posição atual.
+    usage: /setspawn
+    permission: simplespawn.setspawn
+    permission-message: "§cVocê não tem permissão para isso."
+  spawn:
+    description: Teleporta você para o spawn.
+    usage: /spawn
+    permission: simplespawn.spawn
+
+permissions:
+  simplespawn.setspawn:
+    description: Permite usar /setspawn
+    default: op
+  simplespawn.spawn:
+    description: Permite usar /spawn
+    default: true

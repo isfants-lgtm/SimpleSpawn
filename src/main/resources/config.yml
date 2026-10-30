@@ -1,0 +1,8 @@
+# O spawn é salvo automaticamente aqui quando você usa /setspawn.
+# Use & para cores nas mensagens.
+
+mensagens:
+  spawn-definido: "&aSpawn definido com sucesso!"
+  teleportado: "&aTeleportado para o spawn!"
+  sem-spawn: "&cO spawn ainda não foi definido."
+  mundo-invalido: "&cO mundo do spawn não existe mais."
